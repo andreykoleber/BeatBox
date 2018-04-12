@@ -12,10 +12,6 @@ public class SoundViewModel extends BaseObservable{
         mBeatBox = beatBox;
     }
 
-    public Sound getSound() {
-        return mSound;
-    }
-
     public void setSound(Sound sound) {
         mSound = sound;
         notifyChange();
